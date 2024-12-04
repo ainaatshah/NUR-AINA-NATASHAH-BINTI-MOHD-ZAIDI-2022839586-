@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Education</title>
+   <style>
+     body {
+      margin: 0;
+      font-family: serif;
+      background-color: #E8D1A7;
+      }
+
+       .sidenav {
+        overflow: hidden;
+        background-color: #442D1C;
+        }
+
+       .sidenav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+
+       .sidenav a:hover {
+        background-color: #ddd;
+        color: black;
+        }
+
+       .sidenav a.active {
+        background-color: #E8D1A7;
+        color: black;
+        }
+
+       .container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        }
+
+       .row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        }
+
+       .column {
+        flex: 1;
+        margin: 0 10px;
+        background-color: #743014;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        animation: fadeIn 1s forwards;
+        }
+
+       .column img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        }
+
+       .column h2 {
+        color: white;
+        }
+
+       .column p {
+        color: white;
+        }
+
+        @keyframes fadeIn {
+         0% {
+         opacity: 0;
+         transform: translateY(20px);
+        }
+         100% {
+         opacity: 1;
+         transform: translateY(0);
+        }
+        }
+
+        .column:nth-child(1) {
+         animation-delay: 0s;
+        }
+
+        .column:nth-child(2) {
+         animation-delay: 0.2s;
+        }
+
+        .column:nth-child(3) {
+         animation-delay: 0.4s;
+        }
+
+        .links {
+         color: white;
+         font-size: 18px;
+         text-decoration: none;
+        }
+
+        .links:hover {
+         text-decoration: underline;
+        }
+
+        footer {
+         background: #333;
+         color: #fff;
+         text-align: center;
+         padding: 1rem 0;
+         margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sidenav">
+        <a href="index.html">Home Page</a>
+        <a href="biodata.html">Biodata</a>
+        <a href="experience.html">Experience</a>
+        <a href="education.html" class="active">Education</a>
+        <a href="family.html">Family</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+
+    <center>
+        <h1 style="font-family: 'monospace'; font-size: 30px; color: black;">Education</h1>
+    </center>
+
+    <div class="container">
+    <div class="row">
+    <div class="column">
+        <img src="images/school1.jpg" alt="Primary School Image">
+        <h2>Primary School</h2>
+        <p>From 2011 to 2016, I studied at Sekolah Kebangsaan Raja Perempuan Muzwin, where I gained knowledge, developed friendships,
+        and participated in various activities that shaped my character and love for learning. Those years remain a cherished part of my journey.</p>
+    </div>
+    <div class="column">
+        <img src="images/school2.jpg" alt="Secondary School Image">
+        <h2>Secondary School</h2>
+        <p>From 2017 to 2021, I attended SMK Raja Perempuan Kelsom, an all-girls school where I gained knowledge, developed leadership skills, 
+           and created lasting memories with amazing friends.</p>
+            </div>
+    <div class="column">
+        <img src="images/school3.jpg" alt="College Image">
+        <h2>College</h2>
+        <p>Since 2022 until now, I’ve been studying at UiTM Kedah, continuing my academic journey after SPM, where I’ve been learning, growing, 
+           and preparing for future opportunities. Iam pursuing Diploma in Information Management and already sem 5. </p>
+        <a href="https://kedah.uitm.edu.my/" class="links" target="_blank">More about UITM Kedah, click here!</a>
+    </div>
+    </div>
+    </div>
+
+    <footer>
+      © 2024 ntshh. All rights reserved.
+    </footer>
+
+</body>
+</html>
+
+
+
